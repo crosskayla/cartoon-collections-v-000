@@ -18,6 +18,7 @@ def find_the_cheese(array)
   cheese_types.each do |cheese|
     return cheese if array.find(cheese)
   end
+  nil
 end
 
 puts find_the_cheese(["garlic", "rosemary", "bread"])
