@@ -19,6 +19,7 @@ def find_the_cheese(array)
   while i < cheese_types.length
     return cheese_types[i] if array.include?(cheese_types[i])
     i += 1
+  end
 end
 
 puts find_the_cheese(["garlic", "rosemary", "bread"])
